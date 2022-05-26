@@ -1,5 +1,4 @@
-# Denys Dzhur 
-![Photo](/images/photo.jpg)
+# Denys Dzhur ![Photo](/images/photo_320.jpg)
 ## Contacts
 * Location: Kyiv, Ukraine
 * Telegram: [jungL1st78](https://t.me/jungL1st78)

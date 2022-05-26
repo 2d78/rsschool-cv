@@ -1,5 +1,5 @@
 # Denys Dzhur
-
+![My ava](https://github.com/2d78/rsschool-cv/blob/gh-pages/images/ava.gif "Avatar")
 ## Contacts
 * Location: Kyiv, Ukraine
 * Telegram: [jungL1st78](https://t.me/jungL1st78)

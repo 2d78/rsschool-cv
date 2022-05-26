@@ -1,7 +1,7 @@
 # Denys Dzhur 
 ## Contacts
 * Location: Kyiv, Ukraine 
-<img align="right" width="100" height="100" src="/images/photo_640.jpg">
+<img align="right" width="100" height="100" src="images/photo_640.jpg">
 * Telegram: [jungL1st78](https://t.me/jungL1st78)
 * Discord: [jungL1st78#1609](https://discordapp.com/users/467648662198157313)
 * Email: [Write me](mailto:rs.school@2d78.anonaddy.com)

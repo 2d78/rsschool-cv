@@ -2,9 +2,30 @@
   box-sizing: border-box;
 }
 
+.page-body {
+  width: 800px;
+  margin-left: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.nav {
+  display: block;
+  background-color: #73B5D3;
+  color: #26081E;
+}
+
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
   align-items: center;
   list-style: none;
 }
@@ -15,13 +36,93 @@
   transition: .3s;
 }
 
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 800px;
+  margin: 0px;
+  background-color: #C9D8DE;
+}
+
+.section-photo {
+  margin-left: 20px;
+}
+
+.section-info {
+  margin: auto;
+  text-align: center;
+}
+
+.profile-title {
+  color: #060330;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.profile-subtitle {
+  color: #060330;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
 .photo {
-  border: 5px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 50%;
-  border-color: rgb(24, 4, 133);
+}
+
+.page-main {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .section {
-  border: 1px ridge rgb(72, 105, 18) ;
-  padding: 30px;
+  width: 400px;
+  padding: 20px;
+  border: 1px ridge rgb(72, 105, 18);
+}
+
+.page-footer {
+  background-color: #73B5D3;
+  color: #26081E;
+}
+
+.footer-container {
+  display: flex;
+  width: 800px;
+  margin-left: auto;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.footer-github-link {
+  width: 100px;
+  margin: auto;
+}
+
+.footer-date {
+  font-weight: bold;
+  width: 100px;
+  margin: auto;
+}
+
+.footer-js-logo {
+  width: 100px;
+  margin: auto;
+}
+
+.github-logo {
+  width: 45px;
+  height: 45px;
+}
+
+.rs-logo {
+  width: 121px;
+  height: 45px;
 }

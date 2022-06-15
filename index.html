@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,67 +9,69 @@
   <link rel="icon" href="assets/img/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;500;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <div class="container">
       <nav class="nav">
         <ul class="nav-list">
+          <li class="nav-item"><a href="#profile" class="nav-link">About me</a></li>
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
           <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
           <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <main>
+  <main class="main">
     <div class="container main-container">
-      <section class="section" id="profile">
-        <img class="photo" src="assets/img/photo.jpg" alt="Photo">
-          <h1>Denys Dzhur</h1>
-          <h3>A student of the RS School</h3>
+      <div class="section-photo">
+        <img class="photo" src="assets/img/photo.png" alt="Photo">
+      </div>
+      <section class="section section-profile">
+        <h1 class="profile-title">Denys<br>Dzhur</h1>
+        <h3 class="profile-subtitle">Front-End Developer</h3>
+        <h2 class="profile-info-title" id="profile">Profile</h2>
+        <p class="profile-info-text">
+          I work as a lawyer in the corporate and migration departments of Justicon law firm. I register businesses,
+          prepare documents for foreigners coming to Ukraine. I want to change my occupation, that’s why I am taking
+          courses at RS school.
+        </p>
       </section>
-      <section class="section" id="#contacts">
+      <section class="section section-contacts" id="contacts">
         <h2 class="section-title">Contacts</h2>
         <ul>
           <li>
             Location: Kyiv, Ukraine
           </li>
           <li>
-            Telegram: <a href="https://t.me/jungL1st78">jungL1st78</a>
+            Telegram: <a href="https://t.me/jungL1st78" class="contacts-link">jungL1st78</a>
           </li>
           <li>
-            Discord: <a href="https://discordapp.com/users/467648662198157313">jungL1st78#1609</a>
+            Discord: <a href="https://discordapp.com/users/467648662198157313" class="contacts-link">jungL1st78#1609</a>
           </li>
           <li>
-            Email: <a href="mailto:rs.school@2d78.anonaddy.com">Write me</a>
+            Email: <a href="mailto:rs.school@2d78.anonaddy.com" class="contacts-link">Write me</a>
           </li>
           <li>
-            GitHub: <a href="https://github.com/2d78">2d78</a>
+            GitHub: <a href="https://github.com/2d78" class="contacts-link">2d78</a>
           </li>
         </ul>
       </section>
-      <section class="section" id="#about-me">
-        <h2 class="section-title">About me</h2>
-        <p>
-          I work as a lawyer in the corporate and migration departments of Justicon law firm. I register businesses, prepare documents for foreigners coming to Ukraine. I want to change my occupation, that’s why I am taking courses at RS school.
-        </p>
-      </section>
-      <section class="section" id="#skills">
+      <section class="section section-skills" id="skills">
         <h2 class="section-title">Skills</h2>
         <ul>
           <li>Git, GitHub</li>
           <li>VS Code</li>
         </ul>
       </section>
-      <section class="section" id="#code-example">
+      <section class="section section-code" id="code-example">
         <h2 class="section-title">Code example</h2>
-        <pre>
+        <pre class="pre">
           <code>
             function multiply (a, b){
               return a * b
@@ -79,13 +82,11 @@
           </code>
         </pre>
       </section>
-      <section class="section" id="#education">
+      <section class="section section-education" id="education">
         <h2 class="section-title">Education</h2>
         <ul>
           <li><strong>University</strong>: Kyiv National University of Culture and Arts, Lawyer</li>
         </ul>
-      </section>
-      <section class="section" id="#languages">
         <h2 class="section-title">Languages</h2>
         <ul>
           <li><strong>Ukrainian</strong> - Native</li>
@@ -94,9 +95,11 @@
       </section>
     </div>
   </main>
-  <footer>
-    <div class="container">
-      info github, date, link to rsschool
+  <footer class="footer">
+    <div class="container footer-container">
+      <a href="https://github.com/2d78" class="github-logo" target="_blank"></a>
+      <p class="footer-date">2022</p>
+      <a href="https://rs.school/js/" class="rs-logo" target="_blank"></a>
     </div>
   </footer>
 </body>
